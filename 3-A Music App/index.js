@@ -1,7 +1,7 @@
 /*
  * @Date: 2022-01-23 20:51:48
  * @LastEditors: GC
- * @LastEditTime: 2022-01-23 21:24:06
+ * @LastEditTime: 2022-01-27 10:13:06
  * @FilePath: \Projects\3-A Music App\index.js
  */
 window.addEventListener("load", () => {
@@ -18,7 +18,7 @@ window.addEventListener("load", () => {
     ];
 
 
-    // Let's ger going with the sound here
+    // Let's get going with the sound here
     pads.forEach((pad, index) => {
         pad.addEventListener("click", function() {
             // Change current time to 0 so that we can click the taps multiple times
